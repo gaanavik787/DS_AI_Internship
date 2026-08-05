@@ -1,5 +1,18 @@
-stud = [["name","akash"],["age",23],[["marks"],[22,44,55]]]
-
-print("Name:", stud[0][1])
-print("Age:", stud[1][1])
-print("Marks:", *stud[2][1])
+fruits = ["Apple", "Banana", "Mango"]
+print(fruits)
+print(fruits[0])      
+print(fruits[-1])     
+fruits[1] = "Orange"
+print(fruits)
+fruits.append("Grapes")
+print(fruits)
+fruits.insert(1, "Kiwi")
+print(fruits)
+fruits.extend(["Pineapple", "Papaya"])
+print(fruits)
+fruits.remove("Kiwi")
+print(fruits)
+fruits.pop(1)
+print(fruits)
+numbers = [10, 20, 30]
+print(len(numbers))
