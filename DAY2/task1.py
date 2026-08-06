@@ -1,6 +1,6 @@
 print("******** Welcome to Shopping ********")
 
-# Fruit price list
+
 price_list = {
     "apple": 40,
     "banana": 20,
