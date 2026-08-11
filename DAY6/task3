@@ -1,0 +1,23 @@
+import pandas as pd
+
+names = pd.Series(["Gaanavi", None, "ANU", "Ravi", None, "KIRAN"])
+
+print("Original Series:")
+print(names)
+
+print("\nMissing values:")
+print(names.isna())
+
+names = names.fillna("Unknown")
+
+print("\nAfter filling missing values:")
+print(names)
+
+
+names = names.str.lower()
+
+print("\nNames in lowercase:")
+print(names)
+
+print("\nNames containing 'a':")
+print(names[names.str.contains("a")])
