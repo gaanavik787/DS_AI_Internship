@@ -50,3 +50,4 @@ df["Date"] = pd.to_datetime(df["Date"])
 
 print("\nFinal cleaned dataset:")
 print(df.head())
+print(df.describe())
